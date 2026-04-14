@@ -42,7 +42,7 @@
 
 //print bioData
 
-public class basic_Questions {
+public class BasicPrograms {
     public static void main (String[] args){
         String name = "Shashwat";
         int age = 21;
