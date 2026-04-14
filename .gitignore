@@ -1,0 +1,13 @@
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# Compiled files
+out/
+*.class
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
