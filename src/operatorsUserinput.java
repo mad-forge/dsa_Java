@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//public class ConditionProblems {
+//public class operatorsUserinput {
 //    public static void main(String[] args){
 //        Scanner sc = new Scanner(System.in);
 //
@@ -22,7 +22,7 @@ import java.util.Scanner;
 
 //even odd
 
-//public class ConditionProblems {
+//public class operatorsUserinput {
 //    public static void main(String[] args){
 //        Scanner sc = new Scanner(System.in);
 //
@@ -41,7 +41,7 @@ import java.util.Scanner;
 
 // simple interest calculator
 
-//public class ConditionProblems {
+//public class operatorsUserinput {
 //    public static void main(String[] args){
 //        Scanner sc = new Scanner(System.in);
 //
@@ -65,7 +65,7 @@ import java.util.Scanner;
 
 // swap two numbers
 
-//public class ConditionProblems {
+//public class operatorsUserinput {
 //    public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
 //
@@ -89,7 +89,7 @@ import java.util.Scanner;
 
 //Percentage calculator
 
-public class ConditionProblems {
+public class operatorsUserinput {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
