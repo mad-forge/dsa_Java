@@ -43,13 +43,13 @@
 //print bioData
 
 public class BasicPrograms {
-    public static void main (String[] args){
-        String name = "Shashwat";
+    public static void main (String [] args){
+        String  name = "Shashwat";
         int age = 21;
-        String city = "Patna";
-        String collegeCity = "Bhubaneswar";
-        String college = "KIIT University";
-        String course = "B.Tech";
+        String  city = "Patna";
+        String  collegeCity = "Bhubaneswar";
+        String  college = "KIIT University";
+        String  course = "B.Tech";
         int batch = 2025;
 
         System.out.println("Name: " + name);
