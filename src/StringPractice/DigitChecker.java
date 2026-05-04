@@ -2,7 +2,7 @@ package StringPractice;
 
 public class DigitChecker {
     public static void main(String[] args) {
-        String str = "12345";
+        String str = "12a345b";
         boolean isOnlyDigits = true;
 
         for(char c : str.toCharArray()){
