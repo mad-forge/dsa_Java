@@ -1,30 +1,41 @@
 package OOPs;
 
 public class Student {
-    //Attributes
-    public int id;
-    public int age;
-    public String name;
-    public int nos;
+    //Properties:
+    int id;
+    String name;
+    int age;
 
-    //Default ctor(constructor)
+    //CONSTRUCTORS
+    //---->Constructor A (Default constructor)
     public Student(){
-        System.out.println("Student Default Ctor Called...");
-    }
-    //Parameterised ctor
-    public Student(int id, int age, String name, int nos){
-        System.out.println("Student Parameterised Ctor Called...");
+        System.out.println("Without any details new student admission");
     }
 
-    // Methods // Behaviours
+    //---->Constructor B (Parametrised constructor)
+    public Student(int id, String name, int age){
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        System.out.println(name + "got admission");
+    }
+
+    //----Constructor C (Copy constructor)
+    public Student(Student s){
+        this.id = s.id;
+        this.name = s.name;
+        this.age = s.age;
+        System.out.println(name + "Copy of 1st student");
+    }
+
+    //METHODS (Actions)
+
     public void study(){
-        System.out.println(name + "Studying");
+        System.out.println(name + "is studying");
     }
-    public void sleep(){
-        System.out.println(name + "Sleeping");
-    }
+
     public void bunk(){
-        System.out.println(name + "Bunking");
+        System.out.println(name + "is bunking");
     }
 }
 
